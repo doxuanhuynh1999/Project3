@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ------Menu-------- */
+#menu ul{
+    list-style-type: none;
+}
+#menu {
+    overflow: hidden;
+    background-color: #fff;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(102, 99, 99);
+    padding: 10px;
+}
+.left{
+    float: left;
+    margin-left: 50px;
+}
+.right{
+    float: right;
+    margin-right: 50px;
+}
+/* ------Banner------ */
+.banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    border-bottom:1px solid rgb(226, 221, 221);
+}
+.bannerimg{
+    width: 100%; 
+}
+#content{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 5%;
+}
+#content h1{
+    font-size: 3.5rem;
+}
+#content p{
+    font-size: 1.4rem;
+}
+/* -----Section------ */
+#Section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+    padding:30px 90px 40px ;
+}
+#section-content{
+    color: rgb(102, 99, 99);
+    margin-bottom: 20px;
+    line-height: 2rem;
+}
+#box1,#box2,#box3,#box11,#box22,#box33 {
+    float: left;
+}
+#box1,#box2,#box3{
+    height: 100%;
+}
+.box{
+    height: 100%;
+}
+.col{
+    width: 100%;
+    height: auto;
+    padding-right: 40px;
+}
+.image{
+    width: 100%;
+}
+.image-top{
+    padding-bottom: 40px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* -----footer----- */
+footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding: 40px 90px;
+    background-color: rgb(242, 239, 239);
+}
+#box11 a,#box22 a,#box33 a{
+
+    line-height: 2rem;
+}
+#box11 h3,#box22 h3,#box33 h3{
+    color: rgb(21, 20, 20);
+    line-height: 2rem;
+}
+#box11 p,#box22 p,#box33 p{
+    color:rgb(102, 99, 99) ;
+    font-size: 1.2rem;
+}

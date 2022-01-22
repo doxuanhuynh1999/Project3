@@ -1,0 +1,59 @@
+@media only screen and (max-width: 767px){
+    #menu{
+        background-color: #556270;
+        height: 60px;
+    }
+
+    li a{
+        color: white;
+        font-size: 70%;
+        margin-top: 12px;
+    }
+    .left{
+        margin-left: 20px;
+    }
+    .right{  
+        margin-right: 20px;
+    }
+    /* ----baner---- */
+    .banner{
+        padding-bottom: 70px;
+    }
+    .bannerimg{
+        opacity: 0; 
+    }
+    #content h1{
+        font-size: 3rem;
+        color: black;
+    }
+    #content p{
+        font-size: 1rem;
+        color:rgb(102, 99, 99) ;
+    }
+    /* section */
+    #Section{
+        padding: 30px 20px 30px;
+        background-color: white;
+    }
+    #section-content h2{
+        color: black;
+        font-size: 3rem;
+        line-height: 3.8rem;
+    }
+    .image-top{
+        padding-bottom: 20px;
+    }
+    .image-bottom{
+        padding-bottom: 20px;
+    }
+    .col{
+        padding-right: 0px;
+    }
+    /* footer */
+    footer {
+        padding: 0px 20px;
+        background-color: white;
+    }
+   #box11,#box22 h3,#box33 h3{
+        padding-top: 20px;}
+}
